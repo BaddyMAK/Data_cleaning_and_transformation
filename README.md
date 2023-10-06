@@ -23,16 +23,22 @@ The data transformation step could be required either before data cleaning or be
 
 Some examples of data transformation are:
 
-•	Aggregation: concatenate data from multiple sources and store them into a single format 
+•	Aggregation: concatenate data from multiple sources and store them into a single format. 
+
 •	Normalization: transform attributes to be on a similar scale e.g., from 0 to 1, which ameliorate model performance and training stability. 
-•	Standardization:  
-•	Manipulation: data is transformed to render it more readable and organized
+
+•	Standardization: rescale data values so that its mean will be 0 and its standard deviation will be 1. The new data distribution fits standard normal distribution. 
+
+•	Manipulation: data is transformed to render it more readable and organized. 
+
 •	Attribute construction: adding one new attribute or more from existing ones.
+
 •	Etc
 
 ## 4- Conclusion 
  
 • Data cleaning returns high quality data which increases overall productivity, building valid model and simplify taking right decisions. 
+
 •	Transformed data is easier to understand and to analyze either by computer or human. Raw data could be challenging to work with as it could be skewed and it has lot of defects.
 
 
