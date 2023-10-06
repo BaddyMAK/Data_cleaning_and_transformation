@@ -7,8 +7,9 @@ consistent and reliable data to build your model, finding proper insights or tre
 ## Contents 
   1- Summary
   
-  2- Data cleaning
+  2- Data Cleaning
   
-  3- Data transformation 
+  3- Data Transformation 
+  
   4- Conclusion 
 
