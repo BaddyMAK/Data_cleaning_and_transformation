@@ -4,6 +4,8 @@ In this article, I am going to present you all important points you need to know
 about data cleaning and data transformation. They are two fundamental processes that aim to provide high quality,
 consistent and reliable data to build your model, finding proper insights or trends and taking the right decision.
 
+
+
 ## Contents 
   1- Summary
   
@@ -22,8 +24,11 @@ Thus, if the data quality is not good enough, we will not be able to build a rel
 ## 2- Data Cleaning
 Data cleaning is the initial step each data scientist must apply before performing any further analysis or investigations. It is a procedure that helps determine duplicate, missing, inconsistent samples and remove them. It improves data accuracy and increases data quality via discarding invalid and unwanted information.
 
+![alt-text-1](images/Data-Cleaning-scaled.jpeg "Data cleaning") 
+
 ## 3- Data Transformation 
 The data transformation step could be required either before data cleaning or between data cleaning and Exploratory Data Analysis (EDA). Data transformation before data cleaning, is the process of converting data from one format to another such as from JSON to CSV or data aggregation etc. After data cleaning, this process helps convert our cleaned data into useful information and more significant features. 
+![alt-text-2](images/data_transformation.png "Data transformation")
 
 Some examples of data transformation are:
 
