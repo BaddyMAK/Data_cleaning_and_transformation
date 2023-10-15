@@ -7,6 +7,7 @@ consistent and reliable data to build your model, finding proper insights or tre
 ![alt-text-1](images/Data-Cleaning-scaled.jpeg "Data cleaning") 
 
 ## Contents 
+
   1- Summary
   
   2- Data Cleaning
