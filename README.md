@@ -47,7 +47,9 @@ Some examples of data transformation are:
  
 • Data cleaning returns high quality data which increases overall productivity, building valid model and simplify taking right decisions. 
 
-•	Transformed data is easier to understand and to analyze either by computer or human. Raw data could be challenging to work with as it could be skewed and it has lot of defects.
+•	Transformed data is easier to understand and to analyze either by computer or human.
+
+• Raw data could be challenging to work with as it could be skewed and it has lot of defects.
 
 
 
