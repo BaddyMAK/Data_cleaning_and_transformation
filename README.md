@@ -59,10 +59,10 @@ Some examples of data transformation are:
 During the data transformation part, I have accomplished the next steps: 
 
 - Data Normalization : means transforming features to be on a similar scale which improves the performance and training stability of the model. I have used :
-           * Min-Max feature scaling (Normalization)
-           * Maximum absolute scaling (Normalization)
-           * Z-score method (Standardization Scaling)
-           * log scaling or Log transformation
+    - Min-Max feature scaling (Normalization)
+    -  Maximum absolute scaling (Normalization)
+    -  Z-score method (Standardization Scaling)
+    -  Log scaling or Log transformation
   
 - Transforming categorical values to numeric variables : both nominal and ordinal data were considered. I have used :
     - Python’s Category Encoder Library
