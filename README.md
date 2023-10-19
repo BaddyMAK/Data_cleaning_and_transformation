@@ -29,10 +29,16 @@ Data cleaning is the initial step each data scientist must apply before performi
 In my notebook `data_cleaning_and_transformation` I have chosen one random dataset from Kaggle site :
 [weather-dataset](https://www.kaggle.com/datasets/muthuj7/weather-dataset). This dataset conatins 12 columns and 96453 rows. The 12 features are the next : `Formatted Date`, `Summary`, `Precip Type`, `Temperature (C)`, `Apparent Temperature (C)`, `Humidity`, `Wind Speed (km/h)`, `Wind Bearing (degrees)`, `Visibility (km)`, `Loud Cover`, `Pressure (millibars)`, `Daily Summary`.
 
+During the data cleaning phase, I had accomplished the next steps: 
+
+- How to detect and Handle Duplicates
+- How to detect and Handle missing values
+- How to deal with Categorical data
+- How to detect and handle Outliers
 
 
 ## 3- Data Transformation 
-The data transformation step could be required either before data cleaning or between data cleaning and Exploratory Data Analysis (EDA). Data transformation before data cleaning, is the process of converting data from one format to another such as from JSON to CSV or data aggregation etc. After data cleaning, this process helps convert our cleaned data into useful information and more significant features. 
+The data transformation step could be required either before some data cleaning tasks or between data cleaning and Exploratory Data Analysis (EDA). Data transformation before data cleaning, is the process of converting data from one format to another such as from JSON to CSV or data aggregation etc. After data cleaning, this process helps convert our cleaned data into useful information and more significant features. 
 
 Some examples of data transformation are:
 
@@ -47,6 +53,17 @@ Some examples of data transformation are:
 •	Attribute construction: adding one new attribute or more from existing ones.
 
 •	Etc
+
+During the data transformation part, I have accomplished the next steps: 
+
+- Data Normalization : means transforming features to be on a similar scale which improves the performance and training stability of the model. I have used :
+           * Min-Max feature scaling (Normalization)
+           * Maximum absolute scaling (Normalization)
+           * Z-score method (Standardization Scaling)
+           * log scaling or Log transformation
+- Transforming categorical values to numeric variables : both nominal and ordinal data were considered. 
+  
+
 
 ## 4- Conclusion 
  
