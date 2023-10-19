@@ -32,9 +32,11 @@ In my notebook `data_cleaning_and_transformation` I have chosen one random datas
 During the data cleaning phase, I had accomplished the next steps: 
 
 - How to detect and Handle Duplicates
-- How to detect and Handle missing values
-- How to deal with Categorical data
-- How to detect and handle Outliers
+- How to detect and Handle missing values : removing or replacing them using KNNImputer, mean or median etc.
+- How to deal with Categorical data : nominal and ordinal ones 
+- How to detect and handle Outliers : performing some plots together with Interquartile range, Z-Score and 99th-percentile
+
+Note : I have used various methods for the same tasks just to present you all and then you can choose whatever you want to apply in your code. 
 
 
 ## 3- Data Transformation 
@@ -61,7 +63,13 @@ During the data transformation part, I have accomplished the next steps:
            * Maximum absolute scaling (Normalization)
            * Z-score method (Standardization Scaling)
            * log scaling or Log transformation
-- Transforming categorical values to numeric variables : both nominal and ordinal data were considered. 
+  
+- Transforming categorical values to numeric variables : both nominal and ordinal data were considered. I have used :
+    - Python’s Category Encoder Library
+    - Dummy Variable Encoding
+    - Using Scikit-learn
+    - Ordinal Encoding
+    - How to choose the best Encoding Method 
   
 
 
