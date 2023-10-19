@@ -36,12 +36,12 @@ In my notebook `data_cleaning_and_transformation` I have chosen one random datas
 
 The 12 features are the next : `Formatted Date`, `Summary`, `Precip Type`, `Temperature (C)`, `Apparent Temperature (C)`, `Humidity`, `Wind Speed (km/h)`, `Wind Bearing (degrees)`, `Visibility (km)`, `Loud Cover`, `Pressure (millibars)`, `Daily Summary`. I have selected some of them for my accomplished tasks.  
 
-During the data cleaning phase, I had accomplished the next steps: 
+During the data cleaning phase, I had performed the next steps: 
 
-- How to detect and Handle Duplicates
+- How to detect and Handle Duplicates and removing them.
 - How to detect and Handle missing values : removing or replacing them using KNNImputer, mean or median etc.
-- How to deal with Categorical data : nominal and ordinal ones 
-- How to detect and handle Outliers : performing some plots together with Interquartile range, Z-Score and 99th-percentile
+- How to deal with Categorical data : nominal and ordinal examples.
+- How to detect and handle Outliers : performing some plots and visualisations together with Interquartile range, Z-Score and 99th-percentile
 
 Note : I have used various methods for the same tasks just to present you all and then you can choose whatever you want to apply in your code. 
 
