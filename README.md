@@ -1,10 +1,16 @@
 # Data Cleaning and Data Transformation 
 
 In this article, I am going to present you all important points you need to know and to master, as a data scientist,
-about data cleaning and data transformation. They are two fundamental processes that aim to provide high quality,
+about data cleaning and data transformation.
+
+This two processes are fundamental and essential for any data science project. They aim to provide high quality,
 consistent and reliable data to build your model, finding proper insights or trends and taking the right decision.
 
-![alt-text-1](images/Data-Cleaning-scaled.jpeg "Data cleaning") 
+
+
+<div>
+<img src="images/Data-Cleaning-scaled.jpeg "Data cleaning" width="500"/>
+</div>
 
 ## Contents 
 
