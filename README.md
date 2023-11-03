@@ -38,7 +38,7 @@ Retrieving Data can be accomplished using multiple data sources such as:
 - APIs
 - Cloud data sources
   
-SQL databases uses structured data that is coming under the .csv and .tsv formats which are the most common formats for delimited data flat files. Sometimes, you can use special characters as separators such as white space or letter 't' etc. However, NOSQL databases and APIs uses unstructured data stored under .JSON format, JSON corresponds to JavaScript Object Notation.
+SQL databases uses structured data that is coming under the .csv and .tsv formats which are the most common formats for delimited data flat files. Sometimes, you can use special characters as separators such as white space or normal letter like 't', 'v' etc. However, NOSQL databases and APIs uses unstructured data stored under .JSON format, JSON corresponds to JavaScript Object Notation.
 
 Another option for retrieving data could be the Parquet format using `read_parquet()` of our famous `pandas` library but it is not recommended to use it as it requires very high CPU usage.
 
