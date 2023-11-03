@@ -1,12 +1,12 @@
 # Data Cleaning 
 
 In this article, I am going to present you all important points you need to know and to master, as a data scientist,
-about data cleaning. 
+about data cleaning and data transformation. 
 
-Data cleaning is a fundamental and an essential step for any data science project.
-It is the first task that must be accomplished by any data scientist when obtaining the raw data for first time. 
+Data cleaning and data transformation are two fundamental and essential steps for any data science project.
+They are the two first tasks that must be accomplished by any data scientist when obtaining the raw data for first time. 
 
-Finally, Data cleaning aims to provide high quality, consistent and reliable data to build our machine learning model,
+Finally, they aims to provide high quality, consistent and reliable data to build our machine learning model,
 finding proper insights or trends and taking the right decision.
 
 <div>
@@ -20,8 +20,10 @@ finding proper insights or trends and taking the right decision.
   2- Data Reading
   
   3- Data Cleaning
+
+  4- Data transformation
   
-  4- Conclusion 
+  5- Conclusion 
   
 ## 1- Summary 
 
@@ -60,13 +62,48 @@ During the data cleaning phase, I had performed the next steps:
 
 Note : I have used various methods for the same tasks just to present you all and then you can choose whatever you want to apply in your code. 
 
-## 4- Conclusion 
+## 4- Data Transformation 
+
+The data transformation step could be required either before some data cleaning tasks or between data cleaning and Exploratory Data Analysis (EDA). Data transformation before data cleaning, is the process of converting data from one format to another such as from JSON to CSV or data aggregation etc. After data cleaning, this process helps convert our cleaned data into useful information and more significant features. 
+
+Some examples of data transformation are:
+
+•	Aggregation: concatenate data from multiple sources and store them into a single format. 
+
+•	Normalization: transform attributes to be on a similar scale e.g., from 0 to 1, which ameliorate model performance and training stability. 
+
+•	Standardization: rescale data values so that its mean will be 0 and its standard deviation will be 1. The new data distribution fits standard normal distribution. 
+
+•	Manipulation: data is transformed to render it more readable and organized. 
+
+•	Attribute construction: adding one new attribute or more from existing ones.
+
+•	Etc
+
+During the data transformation part, I have accomplished the next steps: 
+
+- Data Normalization : means transforming features to be on a similar scale which improves the performance and training stability of the model. I have used :
+    - Min-Max feature scaling (Normalization)
+    - Maximum absolute scaling (Normalization)
+    - Z-score method (Standardization Scaling)
+    - Log scaling or Log transformation
+  
+- Transforming categorical values to numeric variables : both nominal and ordinal data were considered. I have used :
+    - Python’s Category Encoder Library
+    - Dummy Variable Encoding
+    - Using Scikit-learn
+    - Ordinal Encoding
+    - How to choose the best Encoding Method 
+
+## 5- Conclusion 
 
 • Raw data could be challenging to work with as it could be skewed and it has lot of defects.
 
 • Multiple sources could be used to read data from such as databases, APIs, datalakes etc.
 
 • Data cleaning returns high quality data which increases overall productivity, building valid model and simplify taking right decisions. 
+
+• Transformed data is easier to understand and to analyze either by computer or human.
 
 
 
