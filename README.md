@@ -43,6 +43,7 @@ SQL databases uses structured data that is coming under the .csv and .tsv format
 Another option for retrieving data could be the Parquet format using `read_parquet()` of our famous `pandas` library but it is not recommended to use it as it requires very high CPU usage.
 
 ## 3- Data Cleaning
+
 Data cleaning is the initial step that each data scientist must apply before starting any analysis or investigations and of course before applying any machine learning algorithm. It is a procedure that helps determine duplicate, missing, inconsistent samples and remove them. It improves data accuracy and increases data quality via discarding invalid and unwanted information.
 
 In my notebook `data_cleaning_and_transformation` I have chosen one random dataset from Kaggle site :
