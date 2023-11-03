@@ -63,7 +63,9 @@ Note : I have used various methods for the same tasks just to present you all an
 ## 4- Conclusion 
 
 • Raw data could be challenging to work with as it could be skewed and it has lot of defects.
+
 • Multiple sources could be used to read data from such as databases, APIs, datalakes etc.
+
 • Data cleaning returns high quality data which increases overall productivity, building valid model and simplify taking right decisions. 
 
 
