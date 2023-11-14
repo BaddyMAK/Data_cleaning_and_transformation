@@ -3,11 +3,16 @@
 In this article, I am going to present you all important points you need to know and to master, as a data scientist,
 about data cleaning and data transformation. 
 
-Data cleaning and data transformation are two fundamental and essential steps for any data science project.
-They are the two first tasks that must be accomplished by any data scientist when obtaining the raw data for first time. 
+Data cleaning is the initial step that should be accomplished within any data science project. 
+It is an essential task that plays a significant role to improve raw data quality, to increase data coherence and accuracy 
+and to ensure that findings are based on reliable information. 
 
-Finally, they aims to provide high quality, consistent and reliable data to build our machine learning model,
-finding proper insights or trends and taking the right decision.
+Choosing the right data values helps build a robust machine learning model,finding proper insights or trends and so taking the right decision.
+
+
+Finally, it is important to evaluate how data cleaning has affected the results and conclusions of our data science project.
+For example, to emphasise the role of data cleaning, we can compare the performance and accuracy of our machine learning model before and after cleaning. 
+
 
 <div>
 <img src="images/Data-Cleaning-scaled.jpeg "Data cleaning" width="500"/>
@@ -45,6 +50,8 @@ Another option for retrieving data could be the Parquet format using `read_parqu
 ## 3- Data Cleaning
 
 Data cleaning is the initial step that each data scientist must apply before starting any analysis or investigations and of course before applying any machine learning algorithm. It is a procedure that helps determine duplicate, missing, inconsistent samples and remove them. It improves data accuracy and increases data quality via discarding invalid and unwanted information.
+
+Data cleaning is the process of determining and fixing incorrect data. It can be in incorrect format, duplicates, corrupt, inaccurate, incomplete, or irrelevant etc.
 
 In my notebook `data_cleaning_and_transformation` I have chosen one random dataset from Kaggle site :
 [weather-dataset](https://www.kaggle.com/datasets/muthuj7/weather-dataset). This dataset conatins 12 columns and 96453 rows.
