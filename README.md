@@ -60,10 +60,10 @@ The 12 features are the next : `Formatted Date`, `Summary`, `Precip Type`, `Temp
 
 During the data cleaning phase, I had performed the next steps: 
 
-- How to detect and Handle Duplicates and removing them.
-- How to detect and Handle missing values : removing or impute them using KNNImputer, mean or median etc.
-- How to deal with Categorical data : nominal and ordinal examples.
-- How to detect and handle Outliers : performing some plots and visualisations together with Interquartile range, Z-Score and 99th-percentile
+- How to detect and Handle **Duplicates** and removing them.
+- How to detect and Handle **missing values (NaN)** : removing or impute them using KNNImputer, mean or median etc.
+- How to deal with **Categorical data** : nominal and ordinal examples.
+- How to detect and handle **Outliers** : performing some plots and visualisations together with Interquartile range, Z-Score and 99th-percentile
 
 Note : I have used various methods for the same tasks just to present you all and then you can choose whatever you want to apply in your code. 
 
