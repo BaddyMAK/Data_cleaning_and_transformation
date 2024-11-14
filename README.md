@@ -47,10 +47,9 @@ and to ensure that findings are based on reliable information.
 Finally, it is important to evaluate how data cleaning has affected the results and conclusions of our data science project.
 For example, to emphasise the role of data cleaning, we can compare the performance and accuracy of our machine learning model before and after cleaning. 
 
-
-<div>
+<p align="center">
 <img src="images/Data-Cleaning-scaled.jpeg "Data cleaning" width="300"/>
-</div>
+</p>
 
 Data cleaning is the initial step that each data scientist must apply before starting any analysis or investigations and of course before applying any machine learning algorithm. It is a procedure that helps determine duplicate, missing, inconsistent samples and remove them. It improves data accuracy and increases data quality via discarding invalid and unwanted information.
 
