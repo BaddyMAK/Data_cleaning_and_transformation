@@ -1,39 +1,29 @@
-# Data Preprocessing - Data Cleaning -
+# Data Cleaning, Preprocessing and EDA
 
 In this article, I am going to present you all important points you need to know and to master, as a data scientist,
-about Data Preprocessing step mainly data cleaning task. Choosing the correct and the consistent data values helps build a robust machine learning model,
-finding proper insights or trends and so taking the right decision.
-
-Data cleaning is the initial step that should be accomplished within any data science project. 
-It is an essential task that plays a significant role to improve raw data quality, to increase data coherence and accuracy 
-and to ensure that findings are based on reliable information. 
+about Data Preprocessing step mainly data cleaning task.
+Choosing the correct and the consistent data values helps build a robust machine learning model, finding proper insights or trends and so taking the right decision.
 
 
-Finally, it is important to evaluate how data cleaning has affected the results and conclusions of our data science project.
-For example, to emphasise the role of data cleaning, we can compare the performance and accuracy of our machine learning model before and after cleaning. 
-
-
-<div>
-<img src="images/Data-Cleaning-scaled.jpeg "Data cleaning" width="500"/>
-</div>
 
 ## Contents 
 
-  1- Summary
+1. Short summary
+2. Data Reading
+3. Data Cleaning
+4. Exploratory Data Analysis
+5. Conclusion 
   
-  2- Data Reading
-  
-  3- Data Cleaning
-  
-  4- Conclusion 
-  
-## 1- Summary 
+
+
+
+## 1. Summary 
 
 As a data scientist, working directly with raw data without performing any cleaning or transformation tasks could be useless and critical. Firstly, raw data is unclean, incoherent and poorly structured. Secondly, it may contain duplicates, missing and outdated values. Finally, computers cannot intuitively process raw data like a human mind can. 
 
 Thus, if the data quality is not good enough, we will not be able to build a reliable model and then your project could fail easily. 
 
-## 2- Data Reading 
+## 2. Data Reading 
 
 Retrieving Data can be accomplished using multiple data sources such as: 
 
@@ -46,7 +36,21 @@ SQL databases uses structured data that is coming under the .csv and .tsv format
 
 Another option for retrieving data could be the Parquet format using `read_parquet()` of our famous `pandas` library but it is not recommended to use it as it requires very high CPU usage.
 
-## 3- Data Cleaning
+## 3. Data Cleaning
+
+
+Data cleaning is the initial step that should be accomplished within any data science project. 
+It is an essential task that plays a significant role to improve raw data quality, to increase data coherence and accuracy 
+and to ensure that findings are based on reliable information. 
+
+
+Finally, it is important to evaluate how data cleaning has affected the results and conclusions of our data science project.
+For example, to emphasise the role of data cleaning, we can compare the performance and accuracy of our machine learning model before and after cleaning. 
+
+
+<div>
+<img src="images/Data-Cleaning-scaled.jpeg "Data cleaning" width="300"/>
+</div>
 
 Data cleaning is the initial step that each data scientist must apply before starting any analysis or investigations and of course before applying any machine learning algorithm. It is a procedure that helps determine duplicate, missing, inconsistent samples and remove them. It improves data accuracy and increases data quality via discarding invalid and unwanted information.
 
@@ -67,7 +71,38 @@ During the data cleaning phase, I had performed the next steps:
 Note : I have used various methods for the same tasks just to present you all and then you can choose whatever you want to apply in your code. 
 
 
-## 4- Conclusion 
+
+## 4. Exploratory Data Analysis (EDA)
+EDA helps identify most relevant features among the existing ones and it helps determine next steps to perform before applying any type of machine learning algorithm.
+Next steps could be related to data transformation (aggregation, log transformation, normalisation etc.), or it could be related to increasing the size of input data set via exploring new data sources.
+Briefly, EDA helps data scientists decide what they exactly need to reach their target goal and find the required answers and to make it easy to discover patterns, trends, anomalies etc. 
+
+In our Jupyter notebook we had accomplished the next steps, respectively : 
+- Import the required libraries
+- Data reading
+- Data exploration
+    -  More information: `.info()`
+    -  Data frame shape: `.shape`
+    -  Columns names : useful for filtering data with columns values or selecting a subset of data `.names`
+    -  Statistical summary : `.describe()`
+    -  Values Count
+    -  Data sampling
+    -  Data Grouping using `groupby` 
+    -  Data filtering : by single or by multiple conditions using logical operatore & (and), |(or).
+-  Data analysis
+     - Univariate Analysis : distplot and histplot
+     - Bivariate Analysis
+     - Multivariate Analysis
+       - Correlation matrix and heatmap
+-  Data visualization
+     - `boxplot`
+     - `histplot`
+     - Scatter plot
+ 
+In addition, we can go deeper with data wrangling and perform more exploration via transforming some variables such as Changing to datetime format using `pd.to_datetime(data['DATE'], format='%b-%y')` etc.
+
+
+## 5. Conclusion 
 
 • Raw data could be challenging to work with as it could be skewed and it has lot of defects.
 
